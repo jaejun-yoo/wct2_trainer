@@ -1,5 +1,8 @@
 ## Wavelet PhotoRealistic Style Transfer
 
+## Note from the author
+This is for providing the training code of wavelet encoder and decoder. I found this version from my old disk so I am not sure this is the final version that I used for the paper. However, I think the `trainer_jjy.py` would be helpful for those who want to train the wave encoder and decoder. 
+
 ### Train
 ```.bash
 nsml run -d COCO2014 -a "--feature_weight 10 --recon_weight 1000 --img_size 256 --batch_size 32 --block 4(or 3 or 2)"
