@@ -1,7 +1,7 @@
 ## Wavelet PhotoRealistic Style Transfer
 
 ## Note from the author
-This is for providing the training code of wavelet encoder and decoder. I found this version from my old disk so I am not sure this is the final version that I used for the paper. However, I think the `trainer_jjy.py` would be helpful for those who want to train the wave encoder and decoder. (You should modify the main.py if you want to use the full framework since there are some auxiliary headers and codes that I had to include when I was using the NSML GPU resource scheduler of NAVER-this code won't work as it is if you try to run it without modification.
+This is for providing the training code of wavelet encoder and decoder. I found this version from my old disk so I am not sure this is the final version that I used for the paper. However, I think the `trainer_jjy.py` would be helpful for those who want to train the wave encoder and decoder. You must modify the main.py if you want to use the full framework since there are some auxiliary headers and codes that I had to include when I was using the NSML GPU resource scheduler of NAVER-this code won't work as it is if you try to run it without modification.
 
 ### Train
 ```.bash
